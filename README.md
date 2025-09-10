@@ -1,4 +1,8 @@
-# 💛 EmpathyBot: Emotion Detection and Empathetic Response System
+# 💛 EmpathyBot: Sentiment-Aware Chat System with Advanced RAG and Few-Shot Prompt Engineering - Project Documentation
+
+
+[💻 Demo on Google Drive](https://drive.google.com/drive/folders/1-sMI0HkxM1E31fvujCetamvZm8MA_Sc1?hl=ar)
+
 
 **EmpathyBot** is a Streamlit-based web application that allows users to input text and receive a detailed emotional analysis (happiness or sadness) along with an empathetic response derived from a curated dataset. The app leverages transformer-based NLP models, embeddings, and FAISS for semantic similarity retrieval.
 
