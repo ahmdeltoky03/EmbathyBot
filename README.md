@@ -8,6 +8,16 @@
 
 ---
 
+
+## 🖼️ Screenshots
+
+### Interface  
+![EmpathyBot Interface](sample/interface.jpg)
+
+### Example Output  
+![EmpathyBot Output](sample/output.jpg)
+
+---
 ## 🌟 Features
 
 - **Emotion Prediction**  
