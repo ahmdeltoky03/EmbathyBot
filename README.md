@@ -120,6 +120,12 @@ Do you want me to **combine this with the author and usage sections** into one f
   - Produces embeddings for **semantic similarity search**  
   - Uses **FAISS Index** for fast nearest-neighbor retrieval  
 
+- **Speech-to-Text Model:** `facebook/wav2vec2-base-960h`  
+  - Uses **Wav2Vec2Processor** and **Wav2Vec2ForCTC** from Hugging Face  
+  - Converts audio (.wav/.mp3) to text for analysis  
+  - Integrated with the app for **voice input workflow**
+
+
 - **Empathetic Response:**  
   - Combines **top k similar texts**  
   - Adds disclaimer: `"I’m not a therapist; please seek professional help for serious issues."`  
