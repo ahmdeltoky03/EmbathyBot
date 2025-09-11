@@ -35,6 +35,7 @@
 - **Professional UI/UX**  
   Everything is centered using CSS, with clear bullets and highlighted text for better readability.
 
+
 ---
 
 ## 🗂 Dataset
@@ -152,6 +153,34 @@ Do you want me to **combine this with the author and usage sections** into one f
 - Binary mapping (**happy/sad**) simplifies analysis and improves clarity.
 
 ---
+
+## 🎙️ New Audio Features  
+
+EmpathyBot now supports **speech-based interaction** in addition to text:  
+
+### 🎵 Upload Audio  
+- Upload a **`.wav` or `.mp3`** file.  
+- The system will **transcribe speech → predict emotion → generate reply**.  
+
+### 🎤 Microphone Recording  
+- Record directly in the app.  
+- Recording **auto-stops after 10 seconds**.  
+- Supports the same workflow:  
+  - **STT (Speech-to-Text)** using Wav2Vec2  
+  - **Emotion Prediction** (Happy 😃 / Sad 😢)  
+  - **Empathetic Reply** synthesized from dataset  
+  - **TTS (Text-to-Speech)** playback of the reply  
+
+
+
+### 🔊 Example Flow  
+1. Record or upload your audio.  
+2. EmpathyBot transcribes your voice.  
+3. Predicts **happiness** or **sadness**.  
+4. Generates an **empathetic response**.  
+5. Speaks it back to you with **TTS**.  
+
+--- 
 
 ### 👤 Author
 **Ahmed Eltokhy**  
