@@ -1,8 +1,13 @@
 transformers
 sentence-transformers
 faiss-cpu
-streamlit 
-pandas 
-datasets 
+streamlit
+pandas
+datasets
 pyngrok
 nltk
+torch
+librosa
+gTTS
+sounddevice
+wavio
