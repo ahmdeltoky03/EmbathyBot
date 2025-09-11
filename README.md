@@ -21,7 +21,7 @@
 ## 🌟 Features
 
 - **Emotion Prediction**  
-  Detects whether input text expresses happiness or sadness using `nlptown/bert-base-multilingual-uncased-sentiment`.
+  Detects whether input text expresses happiness or sadness using [`nlptown/bert-base-multilingual-uncased-sentiment`](https://huggingface.co/nlptown/bert-base-multilingual-uncased-sentiment).
 
 - **Model Confidence Visualization**  
   Displays confidence scores for each star rating as a bar chart for transparency.
@@ -112,23 +112,22 @@ Do you want me to **combine this with the author and usage sections** into one f
 
 ## 🔍 Model & Algorithm Details
 
-- **Sentiment Model:** `nlptown/bert-base-multilingual-uncased-sentiment`  
+- **Sentiment Model:** [`nlptown/bert-base-multilingual-uncased-sentiment`](https://huggingface.co/nlptown/bert-base-multilingual-uncased-sentiment)  
   - Maps **1–2 stars → sadness**, **3–5 stars → happiness**  
   - Provides **all-score outputs** for visualization  
 
-- **Embedding Model:** `all-MiniLM-L6-v2` (SentenceTransformer)  
+- **Embedding Model:** [`all-MiniLM-L6-v2`](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) (SentenceTransformer)  
   - Produces embeddings for **semantic similarity search**  
   - Uses **FAISS Index** for fast nearest-neighbor retrieval  
 
-- **Speech-to-Text Model:** `facebook/wav2vec2-base-960h`  
+- **Speech-to-Text Model:** [`facebook/wav2vec2-base-960h`](https://huggingface.co/facebook/wav2vec2-base-960h)  
   - Uses **Wav2Vec2Processor** and **Wav2Vec2ForCTC** from Hugging Face  
   - Converts audio (.wav/.mp3) to text for analysis  
   - Integrated with the app for **voice input workflow**
 
-
 - **Empathetic Response:**  
   - Combines **top k similar texts**  
-  - Adds disclaimer: `"I’m not a therapist; please seek professional help for serious issues."`  
+  - Adds disclaimer: `"I’m not a therapist; please seek professional help for serious issues."`
 
 ---
 
